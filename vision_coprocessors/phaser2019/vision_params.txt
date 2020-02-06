@@ -1,0 +1,32 @@
+#vision:pipeline:hsv_threshold:h_min     45
+#vision:pipeline:hsv_threshold:h_max     118
+#vision:pipeline:hsv_threshold:s_min     0
+#vision:pipeline:hsv_threshold:s_max     65
+#vision:pipeline:hsv_threshold:v_min     78
+#vision:pipeline:hsv_threshold:v_max     255
+
+
+vision:pipeline:hsv_threshold:h_min     40
+vision:pipeline:hsv_threshold:h_max     100
+vision:pipeline:hsv_threshold:s_min     0
+vision:pipeline:hsv_threshold:s_max     255
+vision:pipeline:hsv_threshold:v_min     100
+vision:pipeline:hsv_threshold:v_max     255
+
+#vision:camera:width_pixels              640
+#vision:camera:height_pixels             480
+#vision:camera:width_pixels              320
+#vision:camera:height_pixels             240
+vision:camera:width_pixels              432
+vision:camera:height_pixels             240
+#vision:camera:width_pixels              1280
+#vision:camera:height_pixels             960
+
+# Set to non-0 to stream the camera, 0 to disable
+vision:stream_camera                    1
+
+# Set to non-0 to stream the pipeline output, 0 to disable
+vision:stream_pipeline_output           1
+
+# When set (debug mode only), pipeline acts as pass-through.  No image processing is done.
+vision:passthru_pipe                    0
